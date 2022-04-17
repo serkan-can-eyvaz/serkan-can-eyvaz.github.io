@@ -1,13 +1,235 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ana Sayfa</title>
+    <style>
+#AnaSayfa{
+    width:100%;
+    height:100%;
+background-color:white;
+}
+#içerik{
+      background-color:rgb(61, 59, 59) ;
+      width: 400px;
+      height: 600px;
+      color: #292929;
+      border-radius: 20px;
+      margin-left: 100px;
+      margin-top: 350px;
+      position: absolute;  
+  }
+  #plan{
+      width:100%;
+      height:75% ;
+
+  }
+  
+  #turuncu{
+  width: 100%;
+  height: 20%;
+  background-color: #ff6000;
+  margin-top: -50px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-family:initial;
+  text-align: center;
+  padding-top:45px ;
+ 
+  }
+ 
+ #galerry
+  {
+    margin-top:100px; ;
+    width:100%;
+    max-width: 1700px;
+    height:50%;
+    max-height:400px ;
+  }
+  #arc{
+    color:#292929);
+    font-size: 30px;
+    margin-left: 250px;
+  }
+  #ard{
+      color:#ff6000;
+      font-size: 30px;
+  }
+  #plan ul{
+      color: #ff6000;
+      display: inline-block;
+     
+  }
+  #plan li{
+      display: block;
+      padding: 20px;
+      font-size: 30px;
+  }
+  #ikon2{
+      margin-top: -80px;
+      width: 40px;
+      height: 40px;
+  }
+  #ikon3{
+      margin-top: -25px;
+      margin-left: 80px;
+      width: 60px;
+      height:60px;
+      position: absolute;
+      
+  }
+  #ikon4{
+    width: 80px;
+      height:80px;
+      margin-top: -27px;
+      margin-left: 150px;
+      
+  }
+    
+    .menu {
+	width:500px;
+	margin:200px 0px -200px 700px;
+	margin-top:10px;
+	background:#292929;
+    position: absolute;
+    
+}
+.menu ul {
+	display:block;
+	margin:0;
+	text-align:center;
+	padding:0
+}
+.menu ul li {
+	list-style:none;
+	display:inline-block
+}
+.menu ul li a {
+	display:block;
+	background:#292929;
+	color:#fff;
+	font-size:12px;
+	padding:20px 20px;
+	text-decoration:none;
+	font-family: Arial
+}
+.menu ul li a:hover {
+	background:#ff6000;
+}
+.menu ul li ul {
+	display:none;
+	position:absolute;
+	background:#292929;
+	width:200px
+}
+.menu ul li ul li {
+	display:block
+}
+.menu ul li:hover > a {
+	background:#ff6000;
+}
+.menu ul li ul li a {
+	background:#292929;
+	text-align:left
+}
+.menu ul li ul li a:hover {
+	background:#ff6000;
+}
+.menu ul li:hover ul {
+	display:block
+}
+    
+   #ikon1{
+      margin-top: -40px;
+
+   }
+   #üni{
+      margin-top: 500px;
+      margin-left:630px;
+   }
+
+ 
+  
+    </style>
 </head>
 <body>
-    merhaba 
     
+    <div id="AnaSayfa">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="file:///C:/Users/serkan/Desktop/%C3%B6dev.html/hakk%C4%B1mda.html">Hakkımda</a></li>
+                <li><a href="#">Web</a>
+                    <ul>
+                        <li><a href="#">C</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+        <a  target="_blank" href="resim.jpg">
+        <img src="resim1.jpg" id="galerry">
+         </a>  
+         
+       
+        <div style="margin-top: -500px;"> 
+            
+            <h2 id="İsim"> <span id="arc">Serkan C</span><span id="ard">an Eyvaz</span></h2>
+        </div>
+           
+           <div id="ikon2">
+               
+               <a href="file:///C:/Users/serkan/Desktop/%C3%B6dev.html/AnaSayfa.html"><img src="ikon2.png" alt=""></a>
+           </div>
+           <div id="ikon3">
+             
+               <a href="https://www.instagram.com/">  <img src="ikon3.png" alt=""></a>
+           </div>
+           <div id="ikon4">
+              
+               <a href="https://twitter.com/">   <img src="ikon4.png" alt=""></a>
+           </div>
+           <div id="içerik">
+               
+               <div id="turuncu">
+                Hakkımda
+               </div>
+               <div id="plan">
+                <ul >
+                    <li>
+                        Web
+                    </li>
+                    <li>
+                        Yapay Zeka
+                    </li>
+                    <li>
+                        Kriptoloji
+                    </li>
+                    <li>
+                        Siber Güvenlik
+                    </li>
+                    <li>
+                        Veri Analizi
+                    </li>
+                </ul>
+               </div>
+           </div>
+          
+           <div id="üni">İnönü Üniversitesi, 28 Ocak 1975 tarihinde Türkiye Büyük Millet Meclisinde, 25 Mart 1975 tarihinde ise Cumhuriyet Senatosunda kabul edilen ve 3 Nisan 1975 tarihli Resmî Gazete'de yayımlanarak yürürlüğe giren 1872 sayılı ‘İnönü Üniversitesi Kanunu’ ile kurulmuş olup, 1976-1977 eğitim-öğretim yılından itibaren eğitim hizmeti vermeye başlamıştır. 1984 yılına kadar şimdiki Sadreddin Konevî Anadolu İmam Hatip Lisesi binasında faaliyetlerini sürdüren Üniversitemiz, 1984-1985 Akademik Yılında mevcut yerleşkesine geçmiş ve hızla gelişmeye başlamıştır.
+
+            Ülkemizin saygın ve köklü üniversiteleri arasında yer alan İnönü Üniversitesi, 14 Fakülte, 1’i Devlet Konservatuvarı olmak üzere 2 yüksekokulu, 4 meslek yüksekokulu, 6 enstitü, 1 teknokent, Turgut Özal Tıp Merkezinin de aralarında bulunduğu 31 araştırma ve uygulama merkeziyle yaklaşık 40.000 öğrenciye eğitim ve öğretim hizmeti veren bir üniversitedir. Şehir merkezine 10 km mesafede bulunan üniversitemiz, 7000 dekarlık merkez yerleşkesinin yanında şehir merkezinde bulunan Malatya Meslek Yüksekokulu ve Malatya Organize Sanayi Bölgesinde yer alan Malatya OSB Meslek Yüksekokulu kampüsleriyle eğitim-öğretim, bilimsel araştırma ve uygulama faaliyetlerini sürdürmektedir.
+            
+            1975 yılından bugüne hızla gelişen ve büyüyen üniversitemiz, bugüne kadar yaklaşık 150.000 mezun vererek ülkemizin bilim, düşünce, sanat, ekonomi ve sosyal alanlarında kendini ispat eden on binlerce nitelikli insan kaynağı yetiştirmiştir. İnönü Üniversitesi bugün de yüksek eğitim olanakları ve giderek artan başarı ivmesiyle ülkemizin ve bölgemizin aydınlık geleceğine katkı sağlamaya devam etmektedir.
+            
+            Yerleşke alanı; yeterli altyapısı ve nitelikli eğitim tesisleriyle olduğu kadar, çok amaçlı kültür salonları, sosyal tesisleri, spor ve rekreasyon alanları ile öğrencilerin ders dışı zamanlarını en verimli biçimde değerlendirmelerine olanak sunmaktadır. Engellilere yönelik eğitim ve uygulama merkezlerinin yanında ‘Engelsiz Kampüs’ anlayışıyla da Türkiye'nin önde gelen üniversitelerinden biridir. Merkez yerleşkemizde öğrencilerimiz için özel kız ve erkek öğrenci yurtlarıyla barınma olanakları da mevcuttur.
+            
+            Ayrıca merkez yerleşkemizde, Üniversitemizin adını taşıdığı büyük devlet adamı İsmet İnönü’nün anısına açılmış olan İnönü Müzesi ile Fen Edebiyat Fakültesi binasında İnönü Üniversitesi Kurumsal Müzesi bulunmaktadır.</div>
+    </div>
 </body>
 </html>
