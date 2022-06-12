@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <script>
+        function aa(){
+            alert("Giriş Başarılı")
+        }
+    </script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg- bg-warning">
+        <a class="navbar-brand" href="index.html"> Serkan Can Eyvaz </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+        <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="hakkımda2.html">Hakkımda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iletişim.html">İletişim</a>
+          </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projeler
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="Proje.html">Tanıtım</a>
+            <a class="dropdown-item" href="Okulprojeleri.html">Okul Projeleri</a>
+            <a class="dropdown-item" href="kullanıcı.html">Ofis Projeleri</a>
+            <a class="dropdown-item" href="servisler.html">Geliştirme Projesi</a>
+            
+            </div>
+            </li>   
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Web
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="#">Java</a>
+        <a class="dropdown-item" href="#">C#</a>
+        <a class="dropdown-item" href="#">Python</a>
+        </div>
+        </li>   
+        </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>HOŞGELDİNİZ</h2>
+        <p>Öncelikle giriş adımlarını tamamlayınız...</p>
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="col">
+              <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+            </div>
+            
+          </div>
+          <button onclick="aa()" type="" class="btn btn-primary  mt-3">Submit</button>
+        </form>
+      </div>
+      
+</body>
+</html>
